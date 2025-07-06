@@ -31,15 +31,15 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/7zfdcq.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
+BOT_NAME: process.env.BOT_NAME || "𝐊𝐈𝐍𝐆𝐀𝐍𝐃𝐐𝐔𝐄𝐍𝐍",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "KHAN-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𒋲𝐊⃤𝐈𝐍𝐆⃤👑✨ 𝐀𝐍𝐃 𝐐⃤⚜️𝐔⃝𝐄𝐍𝐍𒋲",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
 // add your bot owner number
@@ -57,9 +57,9 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
@@ -67,7 +67,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
@@ -77,6 +77,6 @@ DEV: process.env.DEV || "923427582273",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
